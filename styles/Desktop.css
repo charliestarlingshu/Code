@@ -50,6 +50,7 @@ body {
 }
 
 main {
+    padding-top: 10px;
     margin:auto;
     width: 75%;
     height: 600px;
