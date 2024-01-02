@@ -1,0 +1,60 @@
+.currentPage{
+    background: #2a2527;
+}
+
+/* nav */
+nav ul {
+    display: flex;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+    height:40px;
+    padding-left: 20%;
+    padding-right: 20%;
+    background: #b95345;
+}
+nav li{
+    width: calc(100% / 7);
+}
+nav ul li a{
+    font-size:20px;
+    padding:10px; 
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav li a:hover {
+    background-color: #525050;
+}
+
+
+header {
+    display:flex;
+    margin:0;
+    justify-content: space-between;
+    flex-direction: column;
+    background:#2a2527;
+}
+
+body {
+    margin:0;
+}
+
+main {
+    margin:auto;
+    width: 75%;
+    height: 600px;
+    border:1px solid black;
+}
+
+footer {
+    display:flex;
+    align-self: flex-end;
+    height:40px;
+    background:#2a2527;
+    height: 125px;
+}
