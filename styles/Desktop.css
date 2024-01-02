@@ -40,6 +40,11 @@ header {
     background:#2a2527;
 }
 
+main img {
+    max-width: 100%;
+    height: auto;
+}
+
 body {
     margin:0;
 }
@@ -51,10 +56,6 @@ main {
     border:1px solid black;
 }
 
-main img {
-    max-width: 100%;
-    height: auto;
-}
 
 footer {
     display:flex;
