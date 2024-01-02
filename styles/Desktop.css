@@ -32,6 +32,12 @@ nav li a:hover {
 }
 
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 header {
     display:flex;
     margin:0;
@@ -53,7 +59,7 @@ main {
     padding-top: 10px;
     margin:auto;
     width: 75%;
-    height: 600px;
+    height: 1000px;
     border:1px solid black;
 }
 
