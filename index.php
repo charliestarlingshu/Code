@@ -4,7 +4,8 @@
         <title>Home</title> 
     </head>
 
-    <body class="home">
+    <body id="body">
+
         <div id="container">
             <?php include('includes/header.php'); ?>
             <main>

@@ -39,8 +39,8 @@ nav li a {
     text-decoration: none;
 }
 
-.sticky {
-    position: fixed;
+.sticky{
+    position:fixed;
     top: 0;
     width: 100%;
 }
@@ -127,13 +127,28 @@ section {
     border: 1px solid black;
 }
 
+#asideText p{
+    margin-left:5%;
+}
+
 ol{
+    margin-left:5%;
     list-style-type: upper-roman;
 }
 
-#asideText p{
+ol li{
+    margin-top:2%;
+}
+
+.subTitleOl{
+    font-size:35px;
+    text-decoration-line: underline;
+}
+
+#asideText p , ol li marker{
     padding:0% 5%;
 }
+
 
 aside img{
     margin-top:2.5%;

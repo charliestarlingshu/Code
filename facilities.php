@@ -4,7 +4,8 @@
         <title>Facilities</title> 
     </head>
 
-    <body>
+    <body id="body">
+
         <div id="container">
         <?php  include( 'includes/header.php'); ?>
         
