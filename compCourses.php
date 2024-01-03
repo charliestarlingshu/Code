@@ -35,14 +35,6 @@
                 <div id="heading">
                     <h1>Courses We Offer</h1>
                 </div> 
-
-                <div id="sort">
-                    <h4>Sort by:</h4>
-                    <select id="sortSelect"> 
-                        <option value="title asc" selected>Title (ASC)</option> 
-                        <option value="title desc">Title (DESC)</option>  
-                    </select> 
-                </div>  
                 
             </section>
 
