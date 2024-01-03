@@ -2,12 +2,13 @@
 <html lang="en-GB">
     <head>
         <title>Computer Courses</title> 
+        <script src="api/allData.js" defer></script>
+
     </head>
 
     <body>
         <div id="container">
         <?php  include( 'includes/header.php'); ?>
-        <?php include('includes/config.php'); ?>
         
         <main>
             <aside class="sidePanel">
@@ -34,6 +35,15 @@
                 <div id="heading">
                     <h1>Courses We Offer</h1>
                 </div> 
+                <table>
+                    <tr>
+                        <th>Course Title</th>
+                        <th>Course Type</th>
+                        <th>Course Summary</th>
+                    </tr>
+                    <tbody id="courseTableBody">
+                    </tbody>
+                </table>
             </section>
 
         </main>
