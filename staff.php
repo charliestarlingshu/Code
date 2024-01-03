@@ -6,7 +6,7 @@
 
     <body>
         <div id="container">
-        <?php  include( 'semantics/header.php'); ?>
+        <?php  include( 'includes/header.php'); ?>
         
         <main>
             <aside class="sidePanel">
@@ -30,7 +30,7 @@
         </main>
 
 
-        <?php include('semantics/footer.php'); ?>
+        <?php include('includes/footer.php'); ?>
 
         </div>
     </body>

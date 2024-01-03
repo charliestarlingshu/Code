@@ -7,7 +7,7 @@
     <body>
         <div id="container">
 
-            <?php include("semantics/header.php"); ?>
+            <?php include("includes/header.php"); ?>
 
 
             <aside>
@@ -18,7 +18,7 @@
                 <article></article>
             </main>
 
-            <?php include('semantics/footer.php'); ?>
+            <?php include('includes/footer.php'); ?>
 
         </div>
     </body>

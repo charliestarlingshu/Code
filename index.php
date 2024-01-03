@@ -6,7 +6,7 @@
 
     <body class="home">
         <div id="container">
-            <?php include('semantics/header.php'); ?>
+            <?php include('includes/header.php'); ?>
             <main>
                 <div id="bannerContainer">
                     <img src="images/banner.jpeg" alt="banner">
@@ -82,7 +82,7 @@
 
             </main>
         
-        <?php include('semantics/footer.php'); ?>
+        <?php include('includes/footer.php'); ?>
 
         </div>
     </body>
