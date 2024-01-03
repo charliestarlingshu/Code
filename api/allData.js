@@ -1,6 +1,6 @@
 (async () => {
     try {
-        const response = await fetch("api/allData.php");
+        const response = await fetch("api/computingData.php");
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
         }
@@ -26,6 +26,7 @@
             row.appendChild(summaryCell);
 
             courseTableBody.appendChild(row);
+            
         });
 
 
