@@ -103,6 +103,7 @@ main img{
 
 body {
     margin:0;
+    min-width: 435px;
 }
 
 main {
