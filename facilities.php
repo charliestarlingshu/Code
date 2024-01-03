@@ -6,18 +6,47 @@
 
     <body>
         <div id="container">
-
-            <?php include("semantics/header.php"); ?>
-
-            <aside>
-                
+        <?php  include( 'semantics/header.php'); ?>
+        
+        <main>
+            <aside class="sidePanel">
+                <nav></nav>
             </aside>
 
-            <main>
-                <article></article>
-            </main>
+            <section class="content">
+                <div id="heading" >
+                    <h1>Facilities</h1>
+                </div>    
+                <article id="asideText">
+                    <p>
+                      Our building has space of 9500m², houses over 240 staff and provides teaching space for more than 1600 students.
+                    </p>
+                </article>
+                <img src="images/facilities.jpg" alt="Facilities" width="45%" height="auto">
+                <article id="asideText">
+                    <h5>Our Facilities Include:</h5>
+                    <ul>
+                        <li>Wi-fi technology</li>
+                        <li>Pool teaching rooms, including classrooms to teach from 25 - 80 students</li>
+                        <li>Specialist faculty facilities</li>
+                        <li>A double height lecture theatre at first and second floor level</li>
+                        <li>Dramatic three-storey glass open atrium</li>
+                        <li>Meeting rooms</li>
+                        <li>Office accommodation</li>
+                        <li>Specialist IT facilities</li>
+                        <li>Reception desk area</li>
+                        <li>Catering outlet</li>
+                        <li>Parking for disabled badge holders</li>
+                        <li>Cycle racks</li>
+                        <li>Gallery</li>
 
-            <?php include('semantics/footer.php'); ?>
+                </article>
+            </section>
+
+        </main>
+
+
+        <?php include('semantics/footer.php'); ?>
 
         </div>
     </body>

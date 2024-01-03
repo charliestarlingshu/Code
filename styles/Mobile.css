@@ -191,8 +191,16 @@ aside img{
 
 .content #heading{
     margin-top: 5%;
+
 }
 
+.content #secondaryHeading{
+    margin-top:40%;
+}
+
+#asideText h5{
+    text-align: center;
+}
 
 .content img{
     width:60%;
@@ -202,6 +210,9 @@ aside img{
     margin-top: 5%;
 }
 
+.content #courses{
+    margin-top:-10%;
+}
 
 
 footer {
