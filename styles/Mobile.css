@@ -177,3 +177,17 @@ aside img{
     margin-left:30%;
     margin-right:30%;
 }
+
+footer {
+    padding-left:5%;
+    padding-right:5%;
+    padding-bottom:10%;
+    display:flex;
+    justify-content: space-around;
+    color:white;
+}
+
+#copy{
+    margin-top:30%;
+    font-size: 12px;
+}
