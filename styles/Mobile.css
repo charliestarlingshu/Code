@@ -183,11 +183,23 @@ aside img{
 }
 
 .content #asideText {
-    
     max-width: 100%;
     width:70%;
     margin-left:15%;
     font-size:25px;
+}
+
+.content #heading{
+    margin-top: 5%;
+}
+
+
+.content img{
+    width:60%;
+    min-width:60%;
+    margin-left:20%;
+    margin-right:20%;
+    margin-top: 5%;
 }
 
 
