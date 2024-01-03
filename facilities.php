@@ -39,7 +39,7 @@
                         <li>Parking for disabled badge holders</li>
                         <li>Cycle racks</li>
                         <li>Gallery</li>
-
+                    </ul>
                 </article>
             </section>
 
