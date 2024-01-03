@@ -111,6 +111,10 @@ main {
     border:1px solid black;
 }
 
+section {
+    min-width: 1000px;
+}
+
 #asideText {
     margin-top: 2.5%;
     margin-left:5%;
