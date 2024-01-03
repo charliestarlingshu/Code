@@ -2,7 +2,7 @@
 header('Content-Type: application/json; charset=utf-8'); 
 
 $queryCourses = "SELECT courseTitle, courseSubject, courseSummary, courseAwardName, ucasCode, studyLength
- FROM Courses WHERE courseSubject ='Computing'
+ FROM Courses WHERE courseSubject ='Art and design'
  ORDER BY courseTitle";
 $results = $mysqli->query($queryCourses);
 $resultsAr = array();

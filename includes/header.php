@@ -23,9 +23,6 @@ $pageName = basename($_SERVER['REQUEST_URI']);
                 <li class="<?php if($pageName=='aboutUs.php'){echo 'active';}?>">
                     <a href="aboutUs.php">About Us</a>
                 </li>
-                <li class="<?php if($pageName=='findUs.php'){echo 'active';}?>">
-                    <a href="findUs.php">Find Us</a>
-                </li>
                 <li class="<?php if($pageName=='compCourses.php'){echo 'active';}?>">
                     <a href="compCourses.php">Computing Courses</a>
                 </li>

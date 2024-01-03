@@ -2,7 +2,7 @@
 <html lang="en-GB">
     <head>
         <title>Computer Courses</title> 
-        <script src="api/allData.js" defer></script>
+        <script src="js/compData.js" defer></script>
 
     </head>
 
@@ -35,15 +35,15 @@
                 <div id="heading">
                     <h1>Courses We Offer</h1>
                 </div> 
-                <table>
-                    <tr>
-                        <th>Course Title</th>
-                        <th>Course Type</th>
-                        <th>Course Summary</th>
-                    </tr>
-                    <tbody id="courseTableBody">
-                    </tbody>
-                </table>
+
+                <div id="sort">
+                    <h4>Sort by:</h4>
+                    <select id="sortSelect"> 
+                        <option value="title asc" selected>Title (ASC)</option> 
+                        <option value="title desc">Title (DESC)</option>  
+                    </select> 
+                </div>  
+                
             </section>
 
         </main>
