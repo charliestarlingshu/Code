@@ -107,12 +107,16 @@ body {
 }
 
 main {
+    display: flex;
+    flex-direction:column;
+    justify-content:flex-start;
     margin:auto;
-    height: 6000px;
     border:1px solid black;
 }
 
-
+section {
+    margin-bottom: 10%;
+}
 
 #asideText {
     margin-top: 2.5%;
@@ -121,7 +125,10 @@ main {
     max-width:300px;
     float:left;
     border: 1px solid black;
-    max-height:400px;
+}
+
+#asideText p{
+    padding:0% 5%;
 }
 
 aside img{
@@ -132,3 +139,41 @@ aside img{
     float:right;
 }
 
+#section1 img{
+    margin-top: 10%;
+}
+
+#section2 img{
+    margin-top:15%;
+}
+
+#section3 img{
+    margin-top:15%;
+}
+
+
+#section2 img{
+    float:left;
+    margin-left:5%;
+    margin-right:0%;
+}
+
+#section2 #asideText{
+    float:right;
+    margin-right:5%;
+    margin-left:0%;
+    margin-top:5%;
+}
+
+#section3 #asideText {
+    float: left;
+    margin-left: 5%;
+    margin-right:0%;
+    margin-top:5%;
+}
+
+#section3 img{
+    margin-top: 5%;
+    margin-left:30%;
+    margin-right:30%;
+}
