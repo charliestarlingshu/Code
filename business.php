@@ -11,26 +11,8 @@
 
     <body>
         <div id="container">
+            <?php include("semantics/header.php"); ?>
 
-            <header>
-                <img src="images/logo.png" width="125px" height="125px"
-                    alt="logo">
-                <nav id="topics">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="aboutUs.html">About Us</a></li>
-                        <li><a href="findUs.html">Find Us</a></li>
-                        <li><a href="compCourses.html">Computing Courses</a></li>
-                        <li><a href="desCourses.html">Design Courses</a></li>
-                        <li><a href="facilities.html">Facilities</a></li>
-                        <li><a href="learning.html">Learning Resources</a></li>
-                        <li><a href="staff.html">Staff</a></li>
-                        <li><a href="students.html">Students</a></li>
-                        <li><a class="currentPage" href="business.html">Business</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </nav>
-            </header>
 
             <aside>
                 
