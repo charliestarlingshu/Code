@@ -7,12 +7,13 @@
         <link rel="stylesheet" media='screen and (max-width: 799px)' href="styles/Mobile.css">
         <link rel="stylesheet" media='screen and (min-width: 800px)' href="styles/Desktop.css">
         <title>About Us</title> 
+        <script defer src="js/script.js"></script>
+
     </head>
 
     <body>
         <div id="container">
-
-            <?php include("semantics/header.php"); ?>
+        <?php  include( 'semantics/header.php'); ?>
 
             <aside>
                 
@@ -26,5 +27,4 @@
 
         </div>
     </body>
-    <script src="js/script.js"></script>
 </html>

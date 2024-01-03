@@ -4,20 +4,20 @@
         <meta charset="UTF-8"> 
         <meta name="viewport" content="width=device-width, 
             initial-scale=1.0"> 
-        <link rel="stylesheet" media='screen and (max-width: 799px)' href="styles/Mobile.css">
-        <link rel="stylesheet" media='screen and (min-width: 800px)' href="styles/Desktop.css">
+        <link rel="stylesheet" media='screen and (max-width: 999px)' href="styles/Mobile.css">
+        <link rel="stylesheet" media='screen and (min-width: 1000px)' href="styles/Desktop.css">
+        <script defer src="js/script.js"></script>
 
         <title>Home</title> 
     </head>
 
-    <body>
+    <body class="home">
         <div id="container">
-            <?php include("semantics/header.php"); ?>
-
+            <?php include('semantics/header.php'); ?>
             <main>
                 <div id="bannerContainer">
                     <img src="images/banner.jpeg" alt="banner">
-                    <a href="contact.html">
+                    <a href="contact.php">
                         <button class="enrol">Enrol Now</button>
                     </a>
                 </div>
@@ -109,8 +109,7 @@
                     </p>
                 </article>
             </footer>
-
+    
         </div>
     </body>
-    <script src="js/script.js"></script>
 </html>
