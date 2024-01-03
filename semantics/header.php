@@ -2,6 +2,15 @@
 $pageName = basename($_SERVER['REQUEST_URI']);
 ?>
 
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, 
+            initial-scale=1.0"> 
+    <link rel="stylesheet" media='screen and (max-width: 799px)' href="styles/Mobile.css">
+    <link rel="stylesheet" media='screen and (min-width: 800px)' href="styles/Desktop.css">
+    <script defer src="js/script.js"></script>
+</head>
+
 <header>
         <img src="images/logo.png" width="125px" height="125px"
                     alt="logo">
