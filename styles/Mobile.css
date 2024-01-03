@@ -112,17 +112,13 @@ main {
     border:1px solid black;
 }
 
-section {
-    min-width: 1000px;
-}
+
 
 #asideText {
     margin-top: 2.5%;
     margin-left:5%;
     width: 42.5%;
-    min-width:190px;
     max-width:300px;
-    min-height: 250px;
     float:left;
     border: 1px solid black;
     max-height:400px;
@@ -132,9 +128,7 @@ aside img{
     margin-top:2.5%;
     margin-right:5%;
     width: 42.5%;
-    min-width:190px;
     max-width:300px;
-    min-height: 250px;
     float:right;
 }
 
