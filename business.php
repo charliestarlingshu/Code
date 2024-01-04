@@ -4,7 +4,7 @@
         <title>Business</title> 
     </head>
 
-    <body id="body">
+    <body>
 
         <div id="container">
         <?php  include( 'includes/header.php'); ?>
@@ -16,13 +16,15 @@
 
             <section class="content">
                 <div id="heading" >
-                    <h1>About Us</h1>
+                    <h1>Working with Business</h1>
                 </div>    
                 <article id="asideText">
-                    <p>Cantor College was established in 1989 to specialize in Computing and Design.   At Cantor College, we want to give students the education they need to achieve their career aims, leaving them equipped with the knowledge, skills and experience to succeed. Cantor College gives you the opportunities that can give you the edge when you enter the world of work, through our teaching and our links to some of the world's leading researchers and employers. 
+                    <p>
+                        We here at Cantor College realize that it is better to extend virally than to revolutionize cyber-macro-extensibly. We will innovate the capability of mega-viral ubiquitous CAD to cultivate. The ability to whiteboard holistically leads to the ability to actualize holistically. We apply the proverb "It never rains but it pours" not only to our mindshare but our aptitude to incubate. What does the term "B2B" really mean? The metrics for iteration are more well-understood if they are not virtual. We will enable the aptitude of initiatives to visualize. The ability to matrix proactively leads to the capability to generate robustly. Our technology takes the best aspects of XSL and Dynamic HTML. Our technology takes the best aspects of ActionScript and Python.
                     </p>
                 </article>
-                <img src="images/cantorLectureTheatre.jpg" alt="Lecture Theatre" width="45%" height="auto">
+                <img src="images/businessCompressed.jpg" alt="Business Meeting" width="45%" height="auto">
+                <!-- img: https://www.pexels.com/photo/group-of-people-sitting-in-conference-table-laughing-1181400/-->
                 <article id="asideText">
                     <p>Our students have gone on to successful careers in a wide range of industries across the globe.  Whatever your ambitions, our learning and support can help to get the most out of your time with Cantor College, both as a student and in your future career.</p>
                 </article>

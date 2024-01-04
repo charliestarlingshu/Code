@@ -4,7 +4,7 @@
         <title>Contact Us</title> 
     </head>
 
-    <body id="body">
+    <body>
 
         <div id="container">
 
