@@ -25,7 +25,7 @@
                 <div id="heading">
                     <h2>Information for Students</h2>
                 </div>
-                <article id="asideText">
+                <article class="asideText">
                     <h5 class="subHeading">Academic Information</h5>
                     <ul>
                         <li>Faculties - Links to all the Faculty and Departmental Offices with information on staff, courses and events.</li>
