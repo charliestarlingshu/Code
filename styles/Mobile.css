@@ -122,7 +122,7 @@ section {
     margin-bottom: 10%;
 }
 
-#asideText ,#intro{
+.asideText ,#intro{
     margin-top: 2.5%;
     margin-left:5%;
     width: 42.5%;
@@ -131,7 +131,7 @@ section {
     border: 1px solid black;
 }
 
-#asideText p{
+.asideText p{
     margin-left:5%;
 }
 
@@ -165,44 +165,6 @@ aside img{
     float:right;
 }
 
-#section1 img{
-    margin-top: 10%;
-}
-
-#section2 img{
-    margin-top:15%;
-}
-
-#section3 img{
-    margin-top:15%;
-}
-
-
-#section2 img{
-    float:left;
-    margin-left:5%;
-    margin-right:0%;
-}
-
-#section2 #asideText{
-    float:right;
-    margin-right:5%;
-    margin-left:0%;
-    margin-top:5%;
-}
-
-#section3 #asideText {
-    float: left;
-    margin-left: 5%;
-    margin-right:0%;
-    margin-top:5%;
-}
-
-#section3 img{
-    margin-top: 5%;
-    margin-left:30%;
-    margin-right:30%;
-}
 
 .sidePanel {
     display:none;
@@ -224,7 +186,7 @@ aside img{
     margin-top:40%;
 }
 
-#asideText h5 {
+.asideText h5 {
     text-align: center;
 }
 
@@ -323,3 +285,35 @@ footer {
     margin-top:20%;
     font-size: 12px;
 }
+
+#compIntro, #facilList, #informationList, #businessFinalInfo{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 900px;
+    font-size:16px;
+}
+
+#homeSections {
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+
+#computersImg{
+    margin-left:180px;
+    margin-top:18px;
+}
+
+#learningBlocks {
+    margin-top:150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#facilityBox{
+    margin-top: -175px;;
+}
+
+

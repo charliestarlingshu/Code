@@ -17,7 +17,7 @@
                 <div id="heading" >
                     <h1>Design  Courses</h1>
                 </div>    
-                <article class="asideText">
+                <article id="compIntro" class="asideText">
                     <p>The College is an internationally connected creative community of diverse disciplines housed under one roof. We shape our students' futures, preparing them to shape the world through applied knowledge and creativity.</p>
                 </article>
                 <img src="images/designCompressed.jpg" alt="Design" width="45%" height="auto">

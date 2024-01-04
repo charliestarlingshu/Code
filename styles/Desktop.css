@@ -97,7 +97,7 @@ main.about img{
 }
 
 
-#heading{
+#heading, #headingContact{
     text-align: center;
     background-color: #b95345;
     color:white;
@@ -158,41 +158,10 @@ html {
     height: 100%;
 }
 
-
-#section2 #asideText{
-    float:left;
-    margin-left:5%;
-    margin-top:-50%;
-    min-width:300px;
+#techSection img{
+    margin-bottom:15px;
 }
 
-#section3 #asideText {
-    float: left;
-    margin-left: 5%;
-    margin-right:0%;
-    margin-top:5%;
-    width:25%;
-}
-
-#section3 #asideText.right {
-    float: right;
-    margin-left: 0%;
-    margin-right:5%;
-    margin-top:5%;
-    width:25%;
-}
-
-#section3 #heading {
-    width:70%;
-    margin-left:15%;
-    margin-top:-5%;
-}
-
-#section3 img{
-    margin-top: -100%;
-    margin-left:32.5%;
-    width:35%;
-}
 footer {
     height:120px;
     padding-left:5%;
@@ -208,7 +177,7 @@ main {
     padding-top: 10px;
     width:100px;
     margin:auto;    
-    min-width: 75%;
+    min-width: 800px;
     border:1px solid black;
 }
 
@@ -220,16 +189,9 @@ main {
 
 #studySection, #supportSection, #techSection{
     margin: 15px 0px;
+    margin-bottom:10px;
+    margin-left:10px;
 }
-
-
-
-
-
-
-
-
-
 
 
 #copy{
@@ -242,8 +204,8 @@ main {
     margin-top:20px;
     font-size:20px;
     width:500px;
-    margin-left:25%;
-    margin-right:30%;
+    margin-left:150px;
+    margin-right:150px;
     border: 1px solid #b95345;
     margin-bottom:2%;
 
@@ -276,7 +238,7 @@ main {
     margin-top: 15px;
 }
 
-#learningList{
+#informationList{
     width:70%;
     margin-left:15%;
     margin-bottom:250px;
@@ -292,11 +254,12 @@ main {
     text-decoration: underline;
 }
 
-.learningIntro #heading{
-    padding-left:-10%;
-    padding-right:-10%;
+ #heading .learningIntro{
+    padding-left:-10px;
+    padding-right:-10px;
     color: white;
     text-align: center;
+    background-color: #2a2527;
 }
 
 ol{
@@ -306,4 +269,72 @@ ol{
 
 ol li{
     margin-top:2%;
+}
+
+#mapImage{
+    margin-left: 10%;
+    margin-right:10%;
+    margin-bottom:15px;
+    width:80%;
+}
+
+#businessFinalInfo{
+    width:700px;
+    margin-left:50px;
+    margin-right:50px;
+}
+
+#businessMeet{
+    margin:75px 30px;
+}
+
+label {
+    display: block;
+}
+
+form > div{
+    margin:20px 0px;
+    font-size: 25px;
+}
+
+input {
+    font-size: 20px;
+}
+
+form {
+    margin-left: 5%;
+    width:263px;
+    margin-bottom:25px;
+}
+
+#newsletter label{
+    display: inline-block;
+}
+
+#updates{
+    float:right;
+    margin-top:-25px;
+    width:20px;
+    height:20px;
+}
+
+#headingContact {
+    margin-top:10%;
+}
+
+#compCourseFinal{
+    margin-top:-300px;
+}
+
+#learningBlocks {
+    margin-top:150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#computersImg{
+    margin-left:220px;
+    margin-bottom:20px;
+    
 }

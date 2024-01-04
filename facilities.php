@@ -18,7 +18,7 @@
                 <div id="heading" >
                     <h1>Facilities</h1>
                 </div>    
-                <article id="facilDesc" class="asideText">
+                <article id="compIntro" class="asideText">
                     <p>
                       Our building has space of 9500m², houses over 240 staff and provides teaching space for more than 1600 students.
                     </p>
