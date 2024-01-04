@@ -7,7 +7,7 @@
 
         <div id="container">
             <?php include('includes/header.php'); ?>
-            <main>
+            <main id="main">
                 <div id="bannerContainer">
                     <img src="images/banner.jpeg" alt="banner">
                     <a href="contact.php">

@@ -12,7 +12,7 @@ $pageName = basename($_SERVER['REQUEST_URI']);
 </head>
 
 <header>
-        <img src="images/logo.png" width="125px" height="125px"
+        <img id="logo" src="images/logo.png" width="125px" height="125px"
                     alt="logo">
         <nav id="topics">        
             <ul>

@@ -2,6 +2,10 @@
     background: #2a2527;
 }
 
+.fillSpace{
+    margin-top:140px;
+}
+
 .container{
     display:flex;
     flex-direction:column;
@@ -92,7 +96,7 @@ main img{
     height: auto;
 }
 
-#heading{
+#heading, #headingContact{
     text-align: center;
     background-color: #b95345;
     color:white;
@@ -269,9 +273,21 @@ aside img{
 
 
 label {
-    display:block;
+    display: block;
 }
 
+form {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin:5%;
+    margin-top:15%;
+    height:500px;
+}
+
+#headingContact {
+    margin-top:10%;
+}
 
 
 

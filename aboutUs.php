@@ -7,7 +7,7 @@
         <div id="container">
         <?php  include( 'includes/header.php'); ?>
         
-        <main>
+        <main id="main">
             <aside class="sidePanel">
                 <nav></nav>
             </aside>

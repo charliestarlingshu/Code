@@ -8,7 +8,10 @@
         <div id="container">
             <?php include("includes/header.php"); ?>
 
-            <main>
+            <main id="main">
+                <div id="headingContact">
+                    <h2>Get in Touch</h2>
+                </div>
                 <form method="">
 
                     <div>
