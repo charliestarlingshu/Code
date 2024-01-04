@@ -18,13 +18,13 @@
                 <div id="heading" >
                     <h1>Facilities</h1>
                 </div>    
-                <article id="asideText">
+                <article id="facilDesc" class="asideText">
                     <p>
                       Our building has space of 9500m², houses over 240 staff and provides teaching space for more than 1600 students.
                     </p>
                 </article>
                 <img src="images/facilities.jpg" alt="Facilities" width="45%" height="auto">
-                <article id="asideText">
+                <article id="facilList" class="asideText">
                     <h5>Our Facilities Include:</h5>
                     <ul>
                         <li>Wi-fi technology</li>

@@ -2,14 +2,11 @@
     background: #2a2527;
 }
 
-.fillSpace{
-    margin-top:140px;
-}
-
 .container{
     display:flex;
     flex-direction:column;
     justify-content: space-between;
+    margin:0%;
 }
 
 /* nav */
@@ -43,20 +40,13 @@ nav li a {
     text-decoration: none;
 }
 
-.sticky{
-    position:fixed;
+.sticky {
+    position: fixed;
     top: 0;
     width: 100%;
 }
 
 
-footer {
-    display:flex;
-    align-self: flex-end;
-    height:40px;
-    background:#2a2527;
-    height: 125px;
-}
 
 header {
     display:flex;
@@ -67,7 +57,8 @@ header {
 }
 
 #bannerContainer img {
-    width: 100%;
+    width: 75%;
+    margin-left: 12.5%;
     height: auto;
 }
 
@@ -91,10 +82,33 @@ header {
     color: white;
 }
 
+main img{
+    max-width: 80%;
+    height: auto;
+    margin-left:15px;
+    margin-top:15px;
+}
+
+main.about img{
+    max-width: 100%;
+    height: auto;
+    margin-left:30%;
+    margin-top:15px;
+}
+
+
+#heading{
+    text-align: center;
+    background-color: #b95345;
+    color:white;
+    width:90%;
+    margin:auto;
+    padding: 10px;
+}
 
 body {
     margin:0;
-    min-width: 400px;
+    min-width:100%;
 }
 
 main {
@@ -103,79 +117,53 @@ main {
     justify-content:flex-start;
     margin:auto;
     border:1px solid black;
+    min-width:800px;
 }
 
-section {
-    margin-bottom: 10%;
-}
-
-#asideText ,#intro{
+.asideText ,#compCoursesImg{
     margin-top: 2.5%;
     margin-left:5%;
-    width: 42.5%;
-    max-width:300px;
+    width: 40%;
     float:left;
     border: 1px solid black;
+    font-size: 20px;
+    min-height:40%;
+    margin-bottom: 2.5%;
 }
 
-#asideText p{
-    margin-left:5%;
-}
-
-ol{
-    margin-left:5%;
-    list-style-type: upper-roman;
-}
-
-ol li{
-    margin-top:2%;
-}
-
-.subHeading{
-    font-size:35px;
-    text-decoration-line: underline;
-    text-align:center;
-}
-
-
-
-#asideText p , ol li marker{
+.asideText p{
     padding:0% 5%;
 }
 
+#facilList {
+    width:90%;
+}
+
+#facilDesc {
+    margin-top: 120px;
+}
 
 aside img{
-    margin-top:2.5%;
+    
     margin-right:5%;
-    width: 42.5%;
-    max-width:300px;
+    width: 45%;
     float:right;
 }
 
-#section1 img{
-    margin-top: 10%;
+
+html {
+    position: relative;
+    min-width: 100%;
+    min-height: 100%;
+    height: 100%;
 }
 
-#section2 img{
-    margin-top:15%;
-}
-
-#section3 img{
-    margin-top:15%;
-}
-
-
-#section2 img{
-    float:left;
-    margin-left:5%;
-    margin-right:0%;
-}
 
 #section2 #asideText{
-    float:right;
-    margin-right:5%;
-    margin-left:0%;
-    margin-top:5%;
+    float:left;
+    margin-left:5%;
+    margin-top:-50%;
+    min-width:300px;
 }
 
 #section3 #asideText {
@@ -183,70 +171,82 @@ aside img{
     margin-left: 5%;
     margin-right:0%;
     margin-top:5%;
+    width:25%;
+}
+
+#section3 #asideText.right {
+    float: right;
+    margin-left: 0%;
+    margin-right:5%;
+    margin-top:5%;
+    width:25%;
+}
+
+#section3 #heading {
+    width:70%;
+    margin-left:15%;
+    margin-top:-5%;
 }
 
 #section3 img{
-    margin-top: 5%;
-    margin-left:30%;
-    margin-right:30%;
+    margin-top: -100%;
+    margin-left:32.5%;
+    width:35%;
 }
-
-.sidePanel {
-    display:none;
-}
-
-.content #asideText {
-    max-width: 100%;
-    width:70%;
-    margin-left:15%;
-    font-size:25px;
-}
-
-#heading, #headingContact{
-    text-align: center;
-    background-color: #b95345;
+footer {
+    height:120px;
+    padding-left:5%;
+    padding-right:5%;
+    padding-bottom:10%;
+    display:flex;
+    justify-content: space-around;
     color:white;
-    width:45%;
-    margin-left: 5%;;
-    padding: 10px;
+    background: #2a2527;
 }
 
-#aboutUsInfo {
-    width:800px;
-    margin-top:-300px;
+main {
+    padding-top: 10px;
+    width:100px;
+    margin:auto;    
+    min-width: 75%;
+    border:1px solid black;
 }
 
-#lectureImg {
-    width: 550px;
-    margin-left:800px;
-    
+#homeSections {
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
 }
 
-.content #heading{
-    margin-top: 5%;
-
+#studySection, #supportSection, #techSection{
+    margin: 15px 0px;
 }
 
-.content #secondaryHeading{
-    margin-top:40%;
-}
 
-#asideText h5 {
-    text-align: center;
-}
 
-.content #courses{
-    margin-top:-10%;
-}
 
+
+
+
+
+
+
+
+#copy{
+    margin-top:10%;
+    font-size: 22px;
+}
 
 .courseBlock {
+
     margin-top:20px;
     font-size:20px;
-    width:90%;
-    margin-left:5%;
-    margin-right:5%;
+    width:500px;
+    margin-left:25%;
+    margin-right:30%;
     border: 1px solid #b95345;
+    margin-bottom:2%;
+
 }
 
 .courseBlock h3{
@@ -270,55 +270,8 @@ aside img{
     margin-right:2%;
 }
 
-
-label {
-    display: block;
-}
-
-form > div{
-    margin:20px 0px;
-    font-size: 25px;
-}
-
-input {
-    font-size: 20px;
-}
-
-form {
+#compCoursesImg{
     margin-left: 5%;
-    width:263px;
-    margin-bottom:25px;
-}
-
-#newsletter label{
-    display: inline-block;
-}
-
-#updates{
-    float:right;
-    margin-top:-25px;
-    width:20px;
-    height:20px;
-}
-
-#headingContact {
-    margin-top:10%;
-}
-
-
-
-
-footer {
-    height:120px;
-    padding-left:5%;
-    padding-right:5%;
-    padding-bottom:10%;
-    display:flex;
-    justify-content: space-around;
-    color:white;
-}
-
-#copy{
-    margin-top:20%;
-    font-size: 12px;
+    margin-right:20px;
+    margin-top: 15px;
 }

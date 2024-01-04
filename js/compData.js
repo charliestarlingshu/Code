@@ -7,7 +7,7 @@
         const data = await response.json();
         
 
-        const courseList = document.getElementById("courses");
+        const courseList = document.getElementById("courseList");
 
 
         data.forEach(course => {

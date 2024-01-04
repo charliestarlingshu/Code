@@ -18,15 +18,15 @@
                 <div id="heading" >
                     <h1>Learning Resources</h1>
                 </div>   
-                <article id="asideText">
+                <article class="asideText">
                 <h5><u>Introduction</u></h5>
                 </article>
-                <article id="asideText">
+                <article class="asideText">
                     <p>All students and staff of the College are entitled to register as members of the Learning Resources and to use the facilities of the Learning Resources for the purpose of their course of study or College employment. <p>
                     <br>
                     <p>Membership may also be extended to other individuals and to persons nominated from other organisations:  a fee is usually charged.  Access to the Learning Resources for study purposes may be made available to non-members by arrangement. Details are available in the External Services leaflet.</p>
                 </article>
-                <article id="asideText">
+                <article class="asideText">
                     <p>Use of Learning Resources facilities implies acceptance of the Learning Resources rules printed below.  These are designed to protect the interests of all users of Learning Resources and to ensure that the College operates within the law and can carry out its functions efficiently and effectively.  The Learning Resources rules apply in principle to all Learning Resources sites, including workstation rooms and site libraries, notwithstanding some variations in practice in the site libraries.  Admission to the Learning Resources is conditional upon observation of the rules and the staff of the Learning Resources are empowered to enforce them. </p>
                     <br>
                     <p>
@@ -38,7 +38,7 @@
                 <div id="heading">
                     <h2>Rules Governing the Use of the Resource Services</h2>
                 </div>
-                <article id="asideText">
+                <article class="asideText">
                     <h5 class="subHeading">A. Access:</h5>
                     <ol>
                         <li>The use of Learning Resources facilities is normally limited to use for the educational and other purposes of the College.</li>
