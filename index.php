@@ -3,7 +3,6 @@
     <head>
         <title>Home</title> 
     </head>
-
     <body>
 
         <div id="container">

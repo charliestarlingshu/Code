@@ -140,10 +140,13 @@ ol li{
     margin-top:2%;
 }
 
-.subTitleOl{
+.subHeading{
     font-size:35px;
     text-decoration-line: underline;
+    text-align:center;
 }
+
+
 
 #asideText p , ol li marker{
     padding:0% 5%;

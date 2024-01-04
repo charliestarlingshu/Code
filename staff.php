@@ -16,15 +16,39 @@
 
             <section class="content">
                 <div id="heading" >
-                    <h1>About Us</h1>
+                    <h1>Information for Staff</h1>
                 </div>    
                 <article id="asideText">
-                    <p>Cantor College was established in 1989 to specialize in Computing and Design.   At Cantor College, we want to give students the education they need to achieve their career aims, leaving them equipped with the knowledge, skills and experience to succeed. Cantor College gives you the opportunities that can give you the edge when you enter the world of work, through our teaching and our links to some of the world's leading researchers and employers. 
-                    </p>
+                    <h5 class="subHeading">News</h5>
+                    <p>Cantor College recently hosted the Software Engineering student of the year awards. Short- listed candidates from around the country attended the one day event.</p>
                 </article>
-                <img src="images/cantorLectureTheatre.jpg" alt="Lecture Theatre" width="45%" height="auto">
                 <article id="asideText">
-                    <p>Our students have gone on to successful careers in a wide range of industries across the globe.  Whatever your ambitions, our learning and support can help to get the most out of your time with Cantor College, both as a student and in your future career.</p>
+                    <h5 class="subHeading">Academic Registry</h5>
+                    <p>For academic regulations, assessment, awards, student records and course validation.</p>
+                </article>
+                <article id="asideText">
+                    <h5 class="subHeading">Catering Services</h5>
+                    <p>Contact the Catering Services regarding on and off-site catering.</p>
+                </article>
+                <article id="asideText">
+                    <h5 class="subHeading">Financial Services</h5>
+                    <p>The financial team based on the 2nd Floor are responsible for all areas of student finance as well as College budgeting.</p>
+                </article>
+                <article id="asideText">
+                    <h5 class="subHeading">Information Systems Services</h5>
+                    <p>The ISS team delivers the College’s computing facilities including all hardware and software. They also run the staff helpdesk.</p>
+                </article>
+                <article id="asideText">
+                    <h5 class="subHeading">Marketing Services</h5>
+                    <p>The Marketing Team will help promote events and new courses. They will help with press release preparation.</p>
+                </article>
+                <article id="asideText">
+                    <h5 class="subHeading">Personnel Services</h5>
+                    <p>All staff pay and conditions enquiries should be directed to the Personnel Services team on the 3rd floor.</p>
+                </article>
+                <article id="asideText">
+                    <h5 class="subHeading">Facilities</h5>
+                    <p>The facilities are responsible for the general care and maintenance of the College. All enquiries via the main helpdesk.</p>
                 </article>
             </section>
 

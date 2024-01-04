@@ -1,7 +1,6 @@
 
 window.onscroll = function() {myFunction()};
 var navbar = document.getElementById("topics");
-var body=document.getElementById('body');
 var sticky = navbar.offsetTop;
 function myFunction() {
   if (window.scrollY >= sticky) {

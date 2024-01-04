@@ -39,7 +39,7 @@
                     <h2>Rules Governing the Use of the Resource Services</h2>
                 </div>
                 <article id="asideText">
-                    <h5 class="subTitleOl">A. Access:</h5>
+                    <h5 class="subHeading">A. Access:</h5>
                     <ol>
                         <li>The use of Learning Resources facilities is normally limited to use for the educational and other purposes of the College.</li>
                         <li>All individuals wishing to become members of the Learning Resources must comply with the registration procedures.  These include an undertaking to abide by Learning Resources rules.</li>
@@ -47,7 +47,7 @@
                         <li>ID cards issued by the College or Learning Resources are not transferable from one person to another.  The person named on each card is responsible for all items borrowed on it and is liable for the cost of replacement of the card or items borrowed on it in the event of loss or damage.</li>
                     </ol>
                     <p><i>Users of the Learning Resources are reminded that they must be willing to show  ID cards or other identification when requested to do so by College staff.</i></p>
-                    <h5 class="subTitleOl">B. Use Of Facilities</h5>
+                    <h5 class="subHeading">B. Use Of Facilities</h5>
                     <ol>
                         <li>The Learning Resources is not responsible for loss of, or damage to, the personal belongings of its users and visitors.  Users must take reasonable precautions against theft of their belongings, and must not leave belongings unattended even for a very short period. Study tables/PCs may not be reserved by depositing clothing or private property on the adjacent seat.  Articles left unattended may be removed by Learning Resources staff but will be returned on request at the Reception Desk.</li>
                         <li>All users are required to conduct themselves quietly throughout the Learning Resources and conversation between users must be kept to a minimum.  No conversation is permitted in those parts of the Learning Resources designated as ‘Silent’ areas.  </li>
