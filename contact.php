@@ -12,7 +12,7 @@
                 <div id="headingContact">
                     <h2>Get in Touch</h2>
                 </div>
-                <form method="">
+                <form method="POST">
 
                     <div>
                         <label for="firstname">First Name:</label>
@@ -33,14 +33,8 @@
                         <label for="comments">Comments</label>
                         <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
                     </div>
-                    <div>
-                        <label for="marketing">How did you find out about us?</label>
-                        <select name="marketing" id="marketing">
-                            <option value="web" selected>Web Search</option>
-                            <option value="friend">Friend Reccommendation</option>
-                        </select>
-                    </div>
-                    <div>
+                    
+                    <div id="newsletter">
                         <label for="updates">Sign up for email updates?</label>
                         <input type="checkbox" name="updates" id="updates" value="1" checked>
                     </div>

@@ -276,13 +276,30 @@ label {
     display: block;
 }
 
+form > div{
+    margin:20px 0px;
+    font-size: 25px;
+}
+
+input {
+    font-size: 20px;
+}
+
 form {
-    display:flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin:5%;
-    margin-top:15%;
-    height:500px;
+    margin-left: 5%;
+    width:263px;
+    margin-bottom:25px;
+}
+
+#newsletter label{
+    display: inline-block;
+}
+
+#updates{
+    float:right;
+    margin-top:-25px;
+    width:20px;
+    height:20px;
 }
 
 #headingContact {
