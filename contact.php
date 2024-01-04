@@ -37,6 +37,10 @@
                             <option value="friend">Friend Reccommendation</option>
                         </select>
                     </div>
+                    <div>
+                        <label for="updates">Sign up for email updates?</label>
+                        <input type="checkbox" name="updates" id="updates" value="1" checked>
+                    </div>
 
 
                     <div>
