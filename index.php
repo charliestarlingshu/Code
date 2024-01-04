@@ -8,7 +8,7 @@
                 <?php include('includes/header.php'); ?>
                 <main class="home">
                     <div id="bannerContainer">
-                        <img src="images/banner.jpeg"alt="banner">
+                        <img src="images/banner.jpeg" alt="Cantor Building Banner">
                         <a href="contact.php">
                             <button class="enrol">Enrol Now</button>
                         </a>
